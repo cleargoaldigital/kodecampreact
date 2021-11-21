@@ -8,7 +8,7 @@ const BlogList = () => {
     }
     return (
         <div>
-            <h1>This is my Blog</h1>
+            <h1 className="header">This is my Blog</h1>
             <p>I am so excited to do this.</p>
             <button onClick={handleClick}>Click me to increase count</button>
             <i>Going forward, you shall be receiving a <b>daily post</b> from me.</i>
